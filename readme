@@ -1,0 +1,11 @@
+sudo apt-get install python-mysqldb
+sudo python setup.py install
+
+put python folder in /var/www
+
+cd /var/www/python/emp_chkIn
+
+python manage.py runserver
+
+
+url->  http://127.0.0.1:8000/users/chkIn/

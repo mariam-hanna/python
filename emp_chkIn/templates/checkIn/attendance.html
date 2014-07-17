@@ -1,0 +1,12 @@
+<table border="1" style="width:300px">
+<tr>
+<td><b>name</b></td>
+<td><b>late</b></td>
+<tr>
+{% for attendance_record in attendance_records %}
+<tr>
+<td>{{ attendance_record.name }}</td>
+<td>{{attendance_record.late}}</td>
+</tr>
+{% endfor %}
+</table>
